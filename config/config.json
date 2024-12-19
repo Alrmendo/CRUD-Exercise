@@ -15,12 +15,12 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "avnadmin",
-    "password": "AVNS_87nU1MEQ5-3l2u9c5Ey",
-    "database": "defaultdb",
-    "host": "pg-tuan8-tuan8db.b.aivencloud.com",
+    "username": "process.env.DB_USERNAME",
+    "password": "process.env.DB_PASSWORD",
+    "database": "process.env.DB_DATABASE",
+    "host": "process.env.DB_HOST",
     "dialect": "postgres",
-    "port": 14413,
+    "port": "process.env.DB_PORT",
     "dialectOptions": {
       "ssl": {
         "require": true,
