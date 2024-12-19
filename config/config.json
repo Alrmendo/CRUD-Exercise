@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "ttbhanh",
-    "password": "5u89vX7AhNbF2hmIFrOitKoTcAA0HV3N",
-    "database": "tuandb",
-    "host": "dpg-clfb5a7jc5ks73e5n3n0-a.oregon-postgres.render.com",
+    "username": "tuan8_6o5z_user",
+    "password": "tLCQociGWqaTBQKO6ePsISfhyGdbYFhx",
+    "database": "tuan8_6o5z",
+    "host": "dpg-cti25nrtq21c739vsmb0-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
