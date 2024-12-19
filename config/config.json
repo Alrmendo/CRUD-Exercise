@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "123456Bphat",
-    "database": "crud_exercise",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "ptudw_projectd_b",
+    "password": "LqRFq2AdNbktMUicE74wjgJunLAVC8FA",
+    "database": "ptudw_project_db_ncec",
+    "host": "dpg-cti39lqj1k6c739k26o0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -14,10 +20,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "tuan8_6o5z_user",
-    "password": "tLCQociGWqaTBQKO6ePsISfhyGdbYFhx",
-    "database": "tuan8_6o5z",
-    "host": "dpg-cti25nrtq21c739vsmb0-a.oregon-postgres.render.com",
+    "username": "ptudw_projectd_b",
+    "password": "LqRFq2AdNbktMUicE74wjgJunLAVC8FA",
+    "database": "ptudw_project_db_ncec",
+    "host": "dpg-cti39lqj1k6c739k26o0-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
